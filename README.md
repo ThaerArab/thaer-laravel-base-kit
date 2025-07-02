@@ -18,7 +18,11 @@ Designed to be a solid base for Laravel projects — minimal, extensible, and re
 
 ## 📦 Installation
 
-### Via Composer (VCS):
-
-```bash
-composer create-project "vcs:https://github.com/ThaerArab/thaer-laravel-base-kit" my-project
+- git clone https://github.com/ThaerArab/thaer-laravel-base-kit.git my-project
+- cd my-project
+- composer install
+- npm install
+- copy .env.example .env  
+- php artisan key:generate
+- php artisan migrate
+- php artisan serve
