@@ -1,0 +1,19 @@
+/* General Settings */
+:root {
+    --color-neutral-dark: #121212;
+    --color-neutral-light: #f9f9f9;
+    --font-family-base: 'Cairo', sans-serif;
+}
+body {
+    font-family: var(--font-family-base);
+    color: var(--color-neutral-dark);
+    background-color: var(--color-neutral-light);
+}
+/* Home Style */
+.list-title{
+    border-bottom: 2px solid var(--color-neutral-dark);
+    padding-bottom: 0.25rem;
+}
+.main-list{
+    list-style-position: inside;
+}
